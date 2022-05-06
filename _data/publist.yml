@@ -1,6 +1,6 @@
 - title: "Optomechanical quantum teleportation."
   image: 
-  description: We use our atomic-scale scanning tunneling noise setup on a disordered superconductor, and discover a state above TC that, much like an ordinary metal, has no (pseudo)gap, but carries charge via paired electrons.
+  description: 
   authors: N. Fiaschi, B. Hensen, A. Wallucks, R. Benevides, J. Li, T. P. M. Alegre & S. Gröblacher
   link:
     url:  https://doi.org/10.1038/s41566-021-00866-z
@@ -10,7 +10,7 @@
 
 - title: "Loophole-free Bell inequality violation using electron spins separated by 1.3 kilometres."
   image: 
-  description: Why is there so much variation in TBG devices? And are open devices more disordered than encapsulated ones? We introduce a new method to continuously map inhomogeneities of a moiré lattice and apply it to open-device TBG to show that twist angle variation is small over areas of hundreds of nm.
+  description:
   authors: B. Hensen, H. Bernien, A. E. Dréau, A. Reiserer, N. Kalb, M. S. Blok, J. Ruitenberg, R. F. L. Vermeulen, R. N. Schouten, C. Abellán, W. Amaya, V. Pruneri, M. W. Mitchell, M. Markham, D. J. Twitchen, D. Elkouss, S. Wehner, T. H. Taminiau & R. Hanson.
   link:
     url: https://doi.org/10.1038/nature15759
