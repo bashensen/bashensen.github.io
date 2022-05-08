@@ -8,17 +8,16 @@ permalink: /vacancies
 
 # Open positions
 
-We are always looking for new group members with passion, talent, and grit!
+We currently have two open positions for PhD candidates as well as a 3-year post-doc position! Send an email to me(bas@hensenlab.org), with _"Application PhD"_ or _"Application Postdoc"_ in the subject line, and attach a short motivation (max one page) on why you would like to join our group and about your research interests, a Curriculum Vitae, including information about the grades you had as an undergraduate and/or a publication list, and contact details of a university teacher or previous/current supervisors who can be contacted for a reference.
 
-You will have the chance to work on the grand challenges of condensed matter physics, often at the interface of instrumental design and new physics. You will be involved in determining the important and interesting questions, creating and improving instrumental setups, performing measurements, and making discoveries.
-
-### Past open positions
-
-You find the past job openings here:
 
 ### Applications for PhD and Postdoc positions
-If you are interested in working with us as a PhD student or postdoc, please send me an [email](mailto:hensen@leidenuniv.nl). State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. No need for a separate cover letter or certificates. **Important**: please insert _"Application PhD"_ or _"Application Postdoc"_ in the subject line. If you are applying to a specific advertisement, note this in your email.
 
+We are always looking for excellent and motivated PhD students and postdocs to join us!
+
+You will have the chance to work the edge of our knowledge on macroscopic quantum systems, using cutting edge nanofabrication techniques, ultra-low temperature measurements, 
+
+If you are interested in working with us as a PhD student or postdoc, please send me an [email](mailto:bas@hensenlab.org). State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. No need for a separate cover letter or certificates. **Important**: please insert _"Application PhD"_ or _"Application Postdoc"_ in the subject line. If you are applying to a specific advertisement, note this in your email.
 
 ### Master projects for Leiden University students
 If you are a Master student at Leiden University looking for a Master project, contact me (or any group member) per email or stop by my office.
