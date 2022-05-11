@@ -8,7 +8,7 @@ permalink: /
 
 Welcome to the Hensen Lab! We are a young dynamic experimental research group starting at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl). 
 
-<img class='center-block' src="{{ site.url }}{{ site.baseurl }}/images/slider/mass_warps_space.png" alt="" />
+<img class="img-responsive center-block" src="{{ site.url }}{{ site.baseurl }}/images/slider/mass_warps_space.png" alt="" />
 
 Our lab addresses one of the key challenges of modern physics: understanding the interface between quantum mechanics and general relativity. Recently, an experimental test was proposed that can directly witness the need to unify the two theories: observing quantum entanglement between objects that only interact through the gravitational field. A successful test would prove the existence of superpositions of space-time and have far-reaching implications on how we understand our world. 
 
