@@ -17,7 +17,9 @@ Welcome to the Hensen Lab! We are a young dynamic experimental research group st
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img class="center-block" src="{{ site.url }}{{ site.baseurl }}/images/slider/mass_warps_space.png" alt="" />
+            <div class="d-flex justify-content-center">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/slider/mass_warps_space.png" alt="" />
+            </div>
             <div class="carousel-caption d-none d-md-block">
             <h5>Does a mass in superposition create a superposition of two space-times?</h5>
             </div>
