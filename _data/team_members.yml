@@ -1,9 +1,16 @@
 - name: Bas Hensen
   photo: Bas_Hensen.jpg
   info: Assistant professor, started June 2022
-  email: hensen@leidenuniv.nl
+  email: hensen@physics.leidenuniv.nl
   number_educ: 4
   education1: Master Applied Physics, Delft University Technology
   education2: PhD Delft University Technology with <a href="https://qutech.nl/lab/hanson-lab/">Ronald Hanson</a>
   education3: Postdoc at UNSW, Sydney with <a href="https://research.unsw.edu.au/people/scientia-professor-andrew-dzurak">Andrew Dzurak</a>
   education4: Postdoc at TU Delft with <a href="https://www.groeblacherlab.org/">Simon Groeblacher</a>
+
+- name: Martijn Janse
+  photo: Martijn_Janse.jpg
+  info: PhD student, started September 2022
+  email: 
+  number_educ: 1
+  education1: Master Applied Physics, Delft University Technology
