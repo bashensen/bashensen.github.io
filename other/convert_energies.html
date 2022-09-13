@@ -1,0 +1,262 @@
+<!--Bas Hensen 2016
+bashensen@hotmail.com
+ This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+ -->
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<script LANGUAGE="JavaScript">
+
+	window.previous_units =
+	{
+	};
+
+	function update_energy(energy) {
+
+  		var elements = document.MainForm.elements;
+
+		for (var i = 0, element; element = elements[i++];) {
+		    if (element.type === "text") {
+		    	var id = get_id_from_raw_id(element.id);
+				var value_factors = get_value_factors(id)
+				var new_value;
+				var cur_unit_factor = value_factors[1];
+				var cur_factor 		= value_factors[2];
+				var cur_inverted 	= value_factors[3];
+				if (cur_inverted == "True")
+					new_value = (1./(energy/cur_factor))/cur_unit_factor;
+				else
+					new_value = (energy/cur_factor)/cur_unit_factor;
+				element.value = format_value(new_value);
+
+				window.previous_units[id] = cur_unit_factor;
+
+		    }
+		        
+		}
+	}
+
+	function format_value(value){
+		if ((value > 0) && (value < 1000) && (value > 0.1)) {
+			return value.toFixed(3);
+		}
+		else if ((value < 0 ) && (value > -1000) && (value < -0.1)) {
+			return value.toFixed(3);
+		}
+		
+		return value.toExponential(3);
+	}
+
+	function get_value_factors(id) {
+		var value = parseFloat(document.getElementById(id+"_value").value);
+		var unit_factor = parseFloat(document.getElementById(id+"_unit").value);
+		var factor = parseFloat(document.getElementById(id+"_factor").value);
+		var inverted = document.getElementById(id+"_inverted").value;
+		return [value, unit_factor, factor, inverted]
+	}
+
+	function get_id_from_raw_id(raw_id){
+		return raw_id.slice(0,raw_id.lastIndexOf("_"))
+	}
+
+	function update(event) {
+
+		var cur_energy;
+		var id = get_id_from_raw_id(event.currentTarget.id);
+		var value_factors = get_value_factors(id);
+		var cur_value 		= value_factors[0]
+		var cur_unit_factor = value_factors[1]
+		var cur_factor 		= value_factors[2]
+		var cur_inverted 	= value_factors[3]
+
+		if (cur_inverted == "True")
+			cur_energy = cur_factor * 1./(cur_value*cur_unit_factor);
+		else
+			cur_energy = cur_factor*cur_value*cur_unit_factor;
+		
+		update_energy(cur_energy);
+		
+
+	}
+
+	function update_unit(event) {
+		var id = get_id_from_raw_id(event.currentTarget.id);
+		var prev_unit_factor = window.previous_units[id];
+		if (typeof prev_unit_factor !== 'undefined') {
+    		var value_factors = get_value_factors(id);
+			var cur_value 		= value_factors[0];
+			var cur_unit_factor = value_factors[1];
+			var new_value = cur_value*(prev_unit_factor/cur_unit_factor);
+			document.getElementById(id+"_value").value = format_value(new_value);
+			window.previous_units[id] = cur_unit_factor
+		}
+		else{
+			update(event);
+		}
+	}
+
+</script>
+</head>
+<body>
+
+<p>&nbsp;</p>
+    <form name="MainForm" align="center">
+	    <table border="0">
+	    	<tr>
+	    		<td>
+	    			Energy E
+	    		</td>
+	    		<td> 
+	    			<input type="hidden" id="energy_factor" name="1" value="1.">
+	    			<input type="hidden" id="energy_inverted" value="False">
+	    			<input type="text" id="energy_value" size="10" onChange="javascript:update(event);">
+	    		</td>
+	    		<td>
+		    		<select id="energy_unit" onChange="javascript:update_unit(event);">
+			    		<option selected value="1.0">J</option>
+			    		<option selected value="1.0e-9">nJ</option>
+			    		<option selected value="1.602176565e-19">eV</option>
+			    		<option selected value="1.602176565e-22">meV</option>
+			    		<option selected value="1.602176565e-25">&#956;eV</option>
+			    		<option selected value="1.602176565e-28">neV</option>
+		    		</select>
+	    		</td>
+	    	</tr>
+
+			<tr>
+	    		<td>
+	    			Frequency E = hf
+	    		</td>
+	    		<td> 
+	    			<input type="hidden" id="frequency_factor" name="h" value="6.62607004e-34">
+	    			<input type="hidden" id="frequency_inverted" value="False">
+	    			<input type="text" id="frequency_value" size="10" onChange="javascript:update(event);">
+
+	    		</td>
+	    		<td>
+		    		<select id="frequency_unit" onChange="update_unit(event);">
+			    		<option selected value="1.0">Hz</option>
+			    		<option selected value="1.0e3">kHz</option>
+			    		<option selected value="1.0e6">MHz</option>
+			    		<option selected value="1.0e9">GHz</option>
+			    		<option selected value="1.0e12">THz</option>
+		    		</select>
+	    		</td>
+	    	</tr>	
+
+	    	<tr>
+	    		<td>
+	    			Period E = h/T
+	    		</td>
+	    		<td> 
+	    			<input type="hidden" id="period_factor" name="h" value="6.62607004e-34">
+	    			<input type="hidden" id="period_inverted" value="True">
+	    			<input type="text" id="period_value" size="10" onChange="javascript:update(event);">
+
+	    		</td>
+	    		<td>
+		    		<select id="period_unit" onChange="update_unit(event);">
+			    		<option selected value="1.0">s</option>
+			    		<option selected value="1.0e-3">ms</option>
+			    		<option selected value="1.0e-6">&#956;s</option>
+			    		<option selected value="1.0e-9">ns</option>
+		    		</select>
+	    		</td>
+	    	</tr>	
+
+	    	<tr>
+	    		<td>
+	    			Wavelength E = hc/&#955;
+	    		</td>
+	    		<td> 
+	    			<input type="hidden" id="wavelength_factor" name="h*c" value="1.98645e-25">
+	    			<input type="hidden" id="wavelength_inverted" value="True">
+	    			<input type="text" id="wavelength_value" size="10" onChange="javascript:update(event);">
+
+	    		</td>
+	    		<td>
+		    		<select id="wavelength_unit" onChange="update_unit(event);">
+			    		<option selected value="1.0">m</option>
+			    		<option selected value="1.0e-3">mm</option>
+			    		<option selected value="1.0e-6">um</option>
+			    		<option selected value="1.0e-9">nm</option>
+		    		</select>
+	    		</td>
+	    	</tr>
+
+	    	<tr>
+	    		<td>
+	    			Wavenumber E = &#295;ck
+	    		</td>
+	    		<td> 
+	    			<input type="hidden" id="wavenumber_factor" name="hbar*c" value="3.16153e-26">
+	    			<input type="hidden" id="wavenumber_inverted" value="False">
+	    			<input type="text" id="wavenumber_value" size="10" onChange="javascript:update(event);">
+
+	    		</td>
+	    		<td>
+		    		<select id="wavenumber_unit" onChange="update_unit(event);">
+			    		<option selected value="1.0">m-1</option>
+			    		<option selected value="100">cm-1</option>
+			    		<option selected value="1000">mm-1</option>
+		    		</select>
+	    		</td>
+	    	</tr>
+
+	    	<tr>
+	    		<td>
+	    			Magnetic field E = g &#956;_B B (g=2)
+	    		</td>
+	    		<td> 
+	    			<input type="hidden" id="bfield_factor" name="g mu_B" value="1.8548e-23">
+	    			<input type="hidden" id="bfield_inverted" value="False">
+	    			<input type="text" id="bfield_value" size="10" onChange="javascript:update(event);">
+
+	    		</td>
+	    		<td>
+		    		<select id="bfield_unit" onChange="update_unit(event);">
+			    		<option selected value="1.0">T</option>
+			    		<option selected value="1.0e-3">mT</option>
+			    		<option selected value="1.0e-4">gauss</option>
+			    		<option selected value="1.0e-7">mgauss</option>
+		    		</select>
+	    		</td>
+	    	</tr>
+	    	<tr>
+	    		<td>
+	    			Temperature E = k_B T
+	    		</td>
+	    		<td> 
+	    			<input type="hidden" id="temperature_factor" name="k_B" value="1.38064852e-23">
+	    			<input type="hidden" id="temperature_inverted" value="False">
+	    			<input type="text" id="temperature_value" size="10" onChange="javascript:update(event);">
+
+	    		</td>
+	    		<td>
+		    		<select id="temperature_unit" onChange="update_unit(event);">
+			    		<option selected value="1.0">K</option>
+			    		<option selected value="1.0e-3">mK</option>
+		    		</select>
+	    		</td>
+	    	</tr>
+
+	    	
+	    </table>
+	</form>
+</body>
+</html>
+
