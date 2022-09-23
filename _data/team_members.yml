@@ -10,7 +10,15 @@
 
 - name: Martijn Janse
   photo: Martijn_Janse.jpg
-  info: PhD student, starting September 2022
-  email: 
+  info: PhD student, started September 2022
+  email: Janse@physics.leidenuniv.nl
   number_educ: 1
   education1: Master Theoretical Physics, Leiden University
+
+- name: Stef Koenis
+  photo: Stef_Koenis.jpg
+  info: PhD student, starting November 2022
+  email: 
+  number_educ: 2
+  education1: MSc Quantum Physics, Niels Bohr Institute (University of Copenhagen)
+  education2: MA History, University of Amsterdam
