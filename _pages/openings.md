@@ -8,7 +8,7 @@ permalink: /vacancies
 
 # Open positions
 
-We currently have an opening for a 3-year post-doc position! Send an email to me(bas@hensenlab.org), with _"Application Postdoc"_ in the subject line, and attach a short motivation (max one page) on why you would like to join our group and about your research interests, a Curriculum Vitae, including a publication list, and contact details of a previous/current supervisors who can be contacted for a reference.
+**We currently have an opening for a 3-year post-doc position! Send an email to me(bas@hensenlab.org), with _"Application Postdoc"_ in the subject line!**
 
 
 ### Applications for PhD and Postdoc positions
