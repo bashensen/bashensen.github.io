@@ -8,7 +8,7 @@ permalink: /vacancies
 
 # Open positions
 
-**We currently have an opening for a 3-year post-doc position! Send an email to me(bas@hensenlab.org), with _"Application Postdoc"_ in the subject line!**
+**We currently have an opening for a 3-year post-doc position: See [here](https://www.universiteitleiden.nl/en/vacancies/2023/q1/23-0093-year-post-doc-position-combining-on-chip-circuit-quantum-electrodynamics-and-magnetic-levitation-to-explore-the-interface-between-quantum-mechanics-and-general-relativity)! Send an email to me(bas@hensenlab.org), with _"Application Postdoc"_ in the subject line!**
 
 
 ### Applications for PhD and Postdoc positions
