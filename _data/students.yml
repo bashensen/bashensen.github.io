@@ -8,16 +8,11 @@
 #  education3:
 #  education4:
 
-- name: T
+- name: Aaron de Jong
   photo: rock.jpg
-  info: Master student
-  email: tl@umail.leidenuniv.nl
+  info: Graduation intern Haagse Hogeschool
+  email: AdeJong@Physics.LeidenUniv.nl
   number_educ: 0
   education1:
 
-- name: J
-  photo: rock.jpg
-  info: BSc student
-  email: j@umail.leidenuniv.nl
-  number_educ: 0
-  education1:
+
