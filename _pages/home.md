@@ -34,15 +34,15 @@ Welcome to the Hensen Lab! We are a young dynamic experimental research group st
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/mass_warps_space.png" alt="Slide 3" />
         </div>
-        <div class="item">
+<!--         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/nanogolf.png" alt="Slide 4" />
-        </div>
+        </div> -->
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/fridge.jpg" alt="Slide 5" />
         </div>       
-         <div class="item">
+<!--          <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/team.png" alt="Slide 6" />
-        </div>
+        </div> -->
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/levitation.png" alt="Slide 6" />
         </div>
