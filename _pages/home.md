@@ -27,25 +27,25 @@ Welcome to the Hensen Lab! We are a young dynamic experimental research group st
     
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/cantilever_magnet.png" alt="Slide 1" />
+            <img class="center-block" src="{{ site.url }}{{ site.baseurl }}/images/slider/cantilever_magnet.png" alt="Slide 1" />
+        </div>
+        <div class="item" >
+            <img class="center-block" src="{{ site.url }}{{ site.baseurl }}/images/slider/cpw.png" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/cpw.png" alt="Slide 2" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/mass_warps_space.png" alt="Slide 3" href="https://www.universiteitleiden.nl/en/vacancies/2023/q1/23-0093-year-post-doc-position-combining-on-chip-circuit-quantum-electrodynamics-and-magnetic-levitation-to-explore-the-interface-between-quantum-mechanics-and-general-relativity" />
+            <img class="center-block" src="{{ site.url }}{{ site.baseurl }}/images/slider/mass_warps_space.png" alt="Slide 3" href="https://www.universiteitleiden.nl/en/vacancies/2023/q1/23-0093-year-post-doc-position-combining-on-chip-circuit-quantum-electrodynamics-and-magnetic-levitation-to-explore-the-interface-between-quantum-mechanics-and-general-relativity" />
         </div>
 <!--         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/nanogolf.png" alt="Slide 4" />
         </div> -->
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/fridge.jpg" alt="Slide 5" />
+            <img class="center-block" src="{{ site.url }}{{ site.baseurl }}/images/slider/fridge.jpg" alt="Slide 5" />
         </div>       
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/postdoc.png" alt="Slide 6" />
+            <img class="center-block" src="{{ site.url }}{{ site.baseurl }}/images/slider/postdoc.png" alt="Slide 6" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/levitation.png" alt="Slide 6" />
+            <img class="center-block" src="{{ site.url }}{{ site.baseurl }}/images/slider/levitation.png" alt="Slide 6" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
