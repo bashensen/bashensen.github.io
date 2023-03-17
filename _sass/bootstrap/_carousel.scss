@@ -21,7 +21,7 @@
     // Account for jankitude on images
     > img { 
       margin: auto; 
-    },
+    }
     > a > img {
       @include img-responsive;
       line-height: 1;
