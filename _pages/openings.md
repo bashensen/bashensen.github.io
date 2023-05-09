@@ -22,6 +22,8 @@ If you are interested in working with us as a PhD student or postdoc, please sen
 ### Bachelor / Master projects for Leiden University students
 If you are a Bachelor / Master student at Leiden University looking for a final thesis project, contact me (or any group member) per email or stop by my office.
 
+opening: [(more info)]({{ site.url }}{{ site.baseurl }}/other/Fabricating_CPW_resonators_in_Leiden_MSc_project.pdf)
+
 ###  Master students from other universities
 If you are interested in pursuing a Master degree at Leiden University, see [mastersinleiden.nl](http://www.mastersinleiden.nl/programmes/physics/en/introduction). Sometimes, we take on summer interns if we get exceptional applicants (this usually means very good grades and a personal recommendation).
 
