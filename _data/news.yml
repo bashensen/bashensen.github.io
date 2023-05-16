@@ -1,3 +1,6 @@
+- date: 16. May 2023
+  headline: We have multiple MSc projects available, see [(here)]({{ site.url }}{{ site.baseurl }}/vacancies)
+
 - date: 17. Jan 2023
   headline: "<b> Postdoc position <a href='https://www.universiteitleiden.nl/en/vacancies/2023/q1/23-0093-year-post-doc-position-combining-on-chip-circuit-quantum-electrodynamics-and-magnetic-levitation-to-explore-the-interface-between-quantum-mechanics-and-general-relativity'>available</a>!</b>"
 

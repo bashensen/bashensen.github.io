@@ -10,6 +10,8 @@ permalink: /vacancies
 
 **We currently have an opening for a 3-year post-doc position: See [here](https://www.universiteitleiden.nl/en/vacancies/2023/q1/23-0093-year-post-doc-position-combining-on-chip-circuit-quantum-electrodynamics-and-magnetic-levitation-to-explore-the-interface-between-quantum-mechanics-and-general-relativity)! Send an email to me(bas@hensenlab.org), with _"Application Postdoc"_ in the subject line!**
 
+**We have an opening for a master thesis project for Leiden University students: Making levitated microparticles quantum with the first coplanar waveguide (CPW) resonators fabricated in Leiden [(more info)]({{ site.url }}{{ site.baseurl }}/other/Fabricating_CPW_resonators_in_Leiden_MSc_project.pdf)**
+
 
 ### Applications for PhD and Postdoc positions
 
