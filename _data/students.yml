@@ -8,11 +8,18 @@
 #  education3:
 #  education4:
 
-- name: Aaron de Jong
+- name: Richard Wagner
   photo: rock.jpg
-  info: Graduation intern Haagse Hogeschool
-  email: AdeJong@Physics.LeidenUniv.nl
+  info: Leiden Universty MSc thesis student
+  email: r.wagner.2@umail.leidenuniv.nl
   number_educ: 0
   education1:
 
+
+- name: Eli van der Bent
+  photo: rock.jpg
+  info: Leiden Universty MSc thesis student
+  email: elivdbent@hotmail.com
+  number_educ: 0
+  education1:
 
