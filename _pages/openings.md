@@ -8,7 +8,9 @@ permalink: /vacancies
 
 # Open positions
 
-**We currently have an opening for a 3-year post-doc position Send an email to me(bas@hensenlab.org), with _"Application Postdoc"_ in the subject line!**
+**We have an opening for a PhD posiition see [vacancy text](https://www.universiteitleiden.nl/vacatures/2023/q4/14160-phd-candidate), or send me an email!**
+
+**We currently have an opening for a post-doc position Send an email to me(bas@hensenlab.org), with _"Application Postdoc"_ in the subject line!**
 
 ### Applications for PhD and Postdoc positions
 
