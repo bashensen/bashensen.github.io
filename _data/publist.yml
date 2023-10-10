@@ -15,7 +15,7 @@
   link:
     url: https://doi.org/10.1038/s41566-021-00866-z
     display: Nature Photonics 15, 817–821 (2021)
-  highlight: 0
+  highlight: 1
   news2:
 
 - title: "Hybrid Integration of Silicon Photonic Devices on Lithium Niobate for Optomechanical Wavelength Conversion"
@@ -55,7 +55,7 @@
   link:
     url: https://doi.org/10.1038/s41565-019-0587-7
     display: Nature Nanotechnoly 15, 13–17 (2020)
-  highlight: 0
+  highlight: 1
   news2:
 
 - title: "Proposal for optomechanical quantum teleportation"
@@ -75,7 +75,7 @@
   link:
     url: https://doi.org/10.1038/s41565-019-0400-7
     display: Nature Nanotechnology 14, 437–441 (2019)
-  highlight: 0
+  highlight: 1
   news2:
 
 - title: "Single-spin qubits in isotopically enriched silicon at low magnetic field"
