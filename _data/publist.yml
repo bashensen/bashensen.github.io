@@ -4,28 +4,8 @@
   authors: M. J. Weaver, P. Duivestein, A. C. Bernasconi, S. Scharmer, M. Lemang, T. C. van Thiel, F. Hijazi, B. Hensen, S. Gröblacher & R. Stockill
   link:
     url: https://doi.org/10.1038/s41565-023-01515-y
-    display: Nat. Nanotechnol. 1–7 (2023)
+    display: Nature Nanotechnoly 1–7 (2023)
   highlight: 1
-  news2:
-
-- title: "A silicon quantum-dot-coupled nuclear spin qubit"
-  image:
-  description:
-  authors: B. Hensen, W. W. Huang, C.-H. Yang, K. W. Chan, J. Yoneda, T. Tanttu, F. E. Hudson, A. Laucht, K. M. Itoh, T. D. Ladd, A. Morello & A. S. Dzurak
-  link:
-    url: https://doi.org/10.1038/s41565-019-0587-7
-    display: Nat. Nanotechnol. 15, 13–17 (2020)
-  highlight: 0
-  news2:
-
-- title: "A quantum memory at telecom wavelengths"
-  image:
-  description:
-  authors: A. Wallucks, I. Marinković, B. Hensen, R. Stockill & S. Gröblacher
-  link:
-    url: https://doi.org/10.1038/s41567-020-0891-z
-    display: Nature Physics 16, 772–777 (2020)
-  highlight: 0
   news2:
 
 - title: "Optomechanical quantum teleportation"
@@ -34,7 +14,7 @@
   authors: N. Fiaschi, B. Hensen, A. Wallucks, R. Benevides, J. Li, T. P. M. Alegre & S. Gröblacher
   link:
     url: https://doi.org/10.1038/s41566-021-00866-z
-    display: Nat. Photon. 15, 817–821 (2021)
+    display: Nature Photonics 15, 817–821 (2021)
   highlight: 0
   news2:
 
@@ -48,6 +28,16 @@
   highlight: 0
   news2:
 
+- title: "A quantum memory at telecom wavelengths"
+  image:
+  description:
+  authors: A. Wallucks, I. Marinković, B. Hensen, R. Stockill & S. Gröblacher
+  link:
+    url: https://doi.org/10.1038/s41567-020-0891-z
+    display: Nature Physics 16, 772–777 (2020)
+  highlight: 0
+  news2:
+
 - title: "Pauli Blockade in Silicon Quantum Dots with Spin-Orbit Control"
   image:
   description:
@@ -55,6 +45,16 @@
   link:
     url: https://doi.org/10.1103/PRXQuantum.2.010303
     display: PRX Quantum 2, 010303 (2021)
+  highlight: 0
+  news2:
+
+- title: "A silicon quantum-dot-coupled nuclear spin qubit"
+  image:
+  description:
+  authors: B. Hensen, W. W. Huang, C.-H. Yang, K. W. Chan, J. Yoneda, T. Tanttu, F. E. Hudson, A. Laucht, K. M. Itoh, T. D. Ladd, A. Morello & A. S. Dzurak
+  link:
+    url: https://doi.org/10.1038/s41565-019-0587-7
+    display: Nature Nanotechnoly 15, 13–17 (2020)
   highlight: 0
   news2:
 
@@ -164,7 +164,7 @@
   authors: J. Cramer, N. Kalb, M. A. Rol, B. Hensen, M. S. Blok, M. Markham, D. J. Twitchen, R. Hanson & T. H. Taminiau
   link:
     url: https://doi.org/10.1038/ncomms11526
-    display: Nat Commun 7, 11526 (2016)
+    display: Nature Communications 7, 11526 (2016)
   highlight: 0
   news2:
 
