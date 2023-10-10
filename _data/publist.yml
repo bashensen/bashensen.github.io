@@ -9,7 +9,7 @@
   news2:
 
 - title: "Optomechanical quantum teleportation"
-  image:
+  image: teleportation.png
   description:
   authors: N. Fiaschi, B. Hensen, A. Wallucks, R. Benevides, J. Li, T. P. M. Alegre & S. Gröblacher
   link:
@@ -49,7 +49,7 @@
   news2:
 
 - title: "A silicon quantum-dot-coupled nuclear spin qubit"
-  image:
+  image: nuclear_spin_qubit.png
   description:
   authors: B. Hensen, W. W. Huang, C.-H. Yang, K. W. Chan, J. Yoneda, T. Tanttu, F. E. Hudson, A. Laucht, K. M. Itoh, T. D. Ladd, A. Morello & A. S. Dzurak
   link:
@@ -69,7 +69,7 @@
   news2:
 
 - title: "Gate-based single-shot readout of spins in silicon"
-  image:
+  image: gate_based_readout.png
   description:
   authors: A. West, B. Hensen, A. Jouan, T. Tanttu, C.-H. Yang, A. Rossi, M. F. Gonzalez-Zalba, F. Hudson, A. Morello, D. J. Reilly & A. S. Dzurak
   link:
