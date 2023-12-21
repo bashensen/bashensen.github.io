@@ -1,9 +1,9 @@
 - date: 27. Nov 2023 
   headline: Our new dilution refrigerator arrives!
-  content: "test"
+  content: "<img src='{{ site.url }}{{ site.baseurl }}/images/news/fridge_arrives.png' style='width: 400px'>"
 
 - date: 2. Nov 2023
-  headline: First levitation in the lab! Sneak preview movie here 
+  headline: First levitation in the lab! Sneak preview movie [here]({{ site.url }}{{ site.baseurl }}/images/news/levitation.mp4) 
 
 - date: 1. Oct 2023
   headline: "New PhD position open: (<a href='https://www.universiteitleiden.nl/vacatures/2023/q4/14160-phd-candidate'> PhD vacancy</a>)"
