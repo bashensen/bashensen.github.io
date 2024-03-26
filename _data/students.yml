@@ -8,18 +8,18 @@
 #  education3:
 #  education4:
 
-- name: Richard Wagner
+- name: Mart Laurman
   photo: rock.jpg
-  info: Leiden Universty MSc thesis student
-  email: r.wagner.2@umail.leidenuniv.nl
+  info: Leiden Universty BSc thesis student
+  email: mart.laurman@gmail.com
   number_educ: 0
   education1:
 
 
-- name: Eli van der Bent
+- name: Thijmen de Jong
   photo: rock.jpg
-  info: Leiden Universty MSc thesis student
-  email: elivdbent@hotmail.com
+  info: Leiden Universty BSc thesis student
+  email: thijmen.dejong@planet.nl
   number_educ: 0
   education1:
 
