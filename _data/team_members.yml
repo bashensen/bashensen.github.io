@@ -22,3 +22,10 @@
   number_educ: 2
   education1: MSc Experimental Physics, Leiden University
   education2: PhD Physics, Leiden Institute of Physics
+
+  - name: Richard Wagner
+  photo: Richard_Wagner.jpg
+  info: PhD student, starting September 2024
+  email: Wagner@physics.leidenuniv.nl
+  number_educ: 1
+  education1: Master Experimental Physics, Leiden University
