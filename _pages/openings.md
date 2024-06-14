@@ -8,8 +8,6 @@ permalink: /vacancies
 
 # Open positions
 
-**We have an opening for a PhD posiition, send me an email!**
-
 ### Applications for PhD and Postdoc positions
 
 We are always looking for excellent and motivated PhD students and postdocs to join us!
