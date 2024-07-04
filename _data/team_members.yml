@@ -11,7 +11,7 @@
 - name: Martijn Janse
   photo: Martijn_Janse.jpg
   info: PhD student, started September 2022
-  email: Janse@physics.leidenuniv.nl
+  email: janse@physics.leidenuniv.nl
   number_educ: 1
   education1: Master Theoretical Physics, Leiden University
 
@@ -26,6 +26,13 @@
 - name: Richard Wagner
   photo: Richard_Wagner.jpg
   info: PhD student, starting September 2024
-  email: Wagner@physics.leidenuniv.nl
+  email: wagner@physics.leidenuniv.nl
+  number_educ: 1
+  education1: Master Experimental Physics, Leiden University
+
+  - name: Eli van der Bent
+  photo: 
+  info: PhD student, starting October 2024
+  email: vanderbent@Physics.LeidenUniv.nl
   number_educ: 1
   education1: Master Experimental Physics, Leiden University
