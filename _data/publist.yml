@@ -1,10 +1,20 @@
+- title: "Characterisation of a levitated sub-mg ferromagnetic cube in a planar alternating-current magnetic Paul trap"
+  image: mpt.png
+  description: The first published experiment from out lab!
+  authors: M. Janse, E. van der Bent, M. Laurman, R. Smit & B. Hensen
+  link:
+    url: https://doi.org/10.48550/arXiv.2408.06838
+    display: arXiv:2408.06838 [quant-ph]
+  highlight: 1
+  news2:
+
 - title: "Current experimental upper bounds on spacetime diffusion"
   image: 
   description:
   authors: M. Janse, D.G. Uitenbroek, L. van Everdingen, J. Plugge, B. Hensen, T.H. Oosterkamp  
   link:
-    url: https://arxiv.org/abs/2403.08912
-    display: arXiv:2403.08912 [quant-ph]
+    url: https://doi.org/10.1103/PhysRevResearch.6.033076
+    display: Phys. Rev. Res. 6, 033076 (2024)
   highlight: 0
   news2:
 
