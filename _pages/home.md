@@ -41,9 +41,7 @@ Welcome to the Hensen Lab! We are a young dynamic experimental research group st
         <div class="item">
             <img class="center-block" src="{{ site.url }}{{ site.baseurl }}/images/slider/fridge.jpg" alt="Slide 5" />
         </div>       
-         <div class="item">
-            <img class="center-block" src="{{ site.url }}{{ site.baseurl }}/images/slider/postdoc.png" alt="Slide 6" />
-        </div>
+
         <div class="item">
             <img class="center-block" src="{{ site.url }}{{ site.baseurl }}/images/slider/levitation.png" alt="Slide 6" />
         </div>
