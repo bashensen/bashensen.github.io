@@ -3,10 +3,11 @@
   description: The first published experiment from out lab!
   authors: M. Janse, E. van der Bent, M. Laurman, R. Smit & B. Hensen
   link:
-    url: https://doi.org/10.48550/arXiv.2408.06838
-    display: arXiv:2408.06838 [quant-ph]
+    url: https://doi.org/10.1063/5.0233291
+    display: Applied Physics Letters 125, 144003 (2024)
   highlight: 1
   news2:
+
 
 - title: "Current experimental upper bounds on spacetime diffusion"
   image: 
