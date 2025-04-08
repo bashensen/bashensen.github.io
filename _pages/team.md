@@ -15,6 +15,11 @@ permalink: /team/
 
 Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/20250210_154423.jpg" 
+      style="width: 800px"
+      onmouseover="this.src='{{ site.url }}{{ site.baseurl }}/images/teampic/20250210_154423.jpg';"
+      onmouseout="this.src='{{ site.url }}{{ site.baseurl }}/images/teampic/20250210_182940.jpg';">
+
 ## Staff
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
