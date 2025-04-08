@@ -17,8 +17,8 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/20250210_154423.jpg" 
       style="width: 800px"
-      onmouseover="this.src='{{ site.url }}{{ site.baseurl }}/images/teampic/20250210_154423.jpg';"
-      onmouseout="this.src='{{ site.url }}{{ site.baseurl }}/images/teampic/20250210_182940.jpg';">
+      onmouseover="this.src='{{ site.url }}{{ site.baseurl }}/images/teampic/20250210_182940.jpg';"
+      onmouseout="this.src='{{ site.url }}{{ site.baseurl }}/images/teampic/20250210_154423.jpg';">
 
 ## Staff
 {% assign number_printed = 0 %}
