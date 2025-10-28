@@ -1,3 +1,14 @@
+- title: "Superconducting flux concentrator coils for levitation of particles in the Meissner state"
+  image: dfct.png
+  description: The first published experiment from out lab!
+  authors: R. Smit, M. Janse, E. van der Bent, T. de Jong, K. Heeck, J. Plugge, T. Oosterkamp & B. Hensen
+  link:
+    url: https://doi.org/10.48550/arXiv.2507.20795
+    display: arXiv.2507.20795
+  highlight: 1
+  news2: test
+
+
 - title: "Characterisation of a levitated sub-mg ferromagnetic cube in a planar alternating-current magnetic Paul trap"
   image: mpt.png
   description: The first published experiment from out lab!
