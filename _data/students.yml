@@ -8,49 +8,21 @@
 #  education3:
 #  education4:
 
-- name: Balint Bosman
+- name: Jasper Bijl
   photo: rock.jpg
   info: Leiden Universty MSc thesis student
   email:
   number_educ: 0
   education1:
 
-- name: Liam Koning
-  photo: rock.jpg
-  info: Leiden Universty BSc thesis student
-  email:
-  number_educ: 0
-  education1:
-
-- name: Bram Pauw
-  photo: rock.jpg
-  info: Leiden Universty BSc thesis student
-  email:
-  number_educ: 0
-  education1:
-
-- name: Pjotr Straver
-  photo: rock.jpg
-  info: Leiden Universty BSc thesis student
-  email:
-  number_educ: 0
-  education1:
-
-- name: Job Wieringa
+- name: Alexey Sverdlov
   photo: rock.jpg
   info: Leiden Universty BSc thesis student
   email: 
   number_educ: 0
   education1:
 
-- name: Thijmen Revenboer
-  photo: rock.jpg
-  info: Leiden Universty BSc thesis student
-  email: 
-  number_educ: 0
-  education1:
-
-- name: Milan Treurniet
+- name: Witold Kamphorst
   photo: rock.jpg
   info: Leiden Universty BSc thesis student
   email: 
