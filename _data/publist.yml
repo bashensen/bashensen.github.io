@@ -3,11 +3,10 @@
   description: Using the power of the Meissner effect twice in one trap! Once to flux focus, once to levitate.
   authors: R. Smit, M. Janse, E. van der Bent, T. de Jong, K. Heeck, J. Plugge, T. Oosterkamp & B. Hensen
   link:
-    url: https://doi.org/10.48550/arXiv.2507.20795
-    display: arXiv.2507.20795
+    url: https://doi.org/10.1093/pnasnexus/pgag072
+    display: PNAS Nexus 5, pgag072 (2026)
   highlight: 1
   news2: 
-
 
 - title: "Characterisation of a levitated sub-mg ferromagnetic cube in a planar alternating-current magnetic Paul trap"
   image: mpt.png
