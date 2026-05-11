@@ -1,3 +1,13 @@
+- title: "On-chip levitation of ferromagnetic microparticles"
+  image: mpt-on-chip.png
+  description:
+  authors: M. Janse, M. L. Mattana, J. van Doorn, E. van der Bent, R. Wagner, R. Smit & B. Hensen
+  link:
+    url: https://doi.org/10.48550/arXiv.2605.00090
+    display: Arxiv 2605.00090
+  highlight: 1
+  news2:
+
 - title: "Superconducting flux concentrator coils for levitation of particles in the Meissner state"
   image: dfct.png
   description: Using the power of the Meissner effect twice in one trap! Once to flux focus, once to levitate.
