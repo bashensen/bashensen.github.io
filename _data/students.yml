@@ -8,23 +8,9 @@
 #  education3:
 #  education4:
 
-- name: Jasper Bijl
+- name: Pieter Vije
   photo: rock.jpg
-  info: Leiden Universty MSc thesis student
+  info: QIST MSc thesis student
   email:
-  number_educ: 0
-  education1:
-
-- name: Alexey Sverdlov
-  photo: rock.jpg
-  info: Leiden Universty BSc thesis student
-  email: 
-  number_educ: 0
-  education1:
-
-- name: Witold Kamphorst
-  photo: rock.jpg
-  info: Leiden Universty BSc thesis student
-  email: 
   number_educ: 0
   education1:
