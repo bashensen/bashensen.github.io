@@ -63,7 +63,7 @@ We aim to develop and characterise an experimental platform that is compatible w
 
  **We are looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
-We are grateful for funding from Leiden University, [ERC starting grant](https://erc.europa.eu/funding/starting-grants), [Quantum Delta NL](https://www.nationaalgroeifonds.nl/overzicht-lopende-projecten/thema-sleuteltechnologieen-en-valorisatie/quantum-delta-nl), Einstein Telescope for business(https://einsteintelescopeforbusiness.nl) and the Dutch Organisation for Scientific Research, [NWO](https://www.nwo.nl/).
+We are grateful for funding from Leiden University, [ERC starting grant](https://erc.europa.eu/funding/starting-grants), [Quantum Delta NL](https://www.nationaalgroeifonds.nl/overzicht-lopende-projecten/thema-sleuteltechnologieen-en-valorisatie/quantum-delta-nl), [Einstein Telescope for business](https://einsteintelescopeforbusiness.nl) and the Dutch Organisation for Scientific Research, [NWO](https://www.nwo.nl/).
 
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px">
